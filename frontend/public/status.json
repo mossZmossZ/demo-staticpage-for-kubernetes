@@ -1,0 +1,6 @@
+{
+  "nkp_ip": "10.100.20.30",
+  "kasten_ip": "10.100.20.50",
+  "nkp_status": "Operational",
+  "k8s_uptime": "36 days"
+}
