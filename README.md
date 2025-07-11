@@ -1,0 +1,1 @@
+# demo-staticpage-for-kubernetes
