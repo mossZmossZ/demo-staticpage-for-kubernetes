@@ -23,9 +23,11 @@ function App() {
         <p className="text-center text-red-600">{data.error}</p>
       ) : (
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 max-w-5xl w-full animate-fade-in-up">
-          <AnimatedCard title="🌐 NKP IP" value={data.nkp_ip} />
-          <AnimatedCard title="🛡️ Kasten IP" value={data.kasten_ip} />
+          <AnimatedCard title="🌐 NKP Link" value={data.nkp_ip} />
+          <AnimatedCard title="🛡️ Kasten Link" value={data.kasten_ip} />
           <AnimatedCard title="📡 NKP Status" value={data.nkp_status} status />
+          <AnimatedCard title="📊 Kubernetes Uptime" value={data.k8s_uptime} />
+          <AnimatedCard title="📊 Load Balancer" value={data.k8s_uptime} />
           <AnimatedCard title="📊 Kubernetes Uptime" value={data.k8s_uptime} />
         </div>
       )}

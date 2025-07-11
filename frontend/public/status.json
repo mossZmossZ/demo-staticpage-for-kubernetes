@@ -1,6 +1,6 @@
 {
-  "nkp_ip": "10.100.20.30",
-  "kasten_ip": "10.100.20.50",
+  "nkp_ip": "https://172.18.13.117/dkp/kommander/",
+  "kasten_ip": "http://172.18.10.41/k10/#/dashboard",
   "nkp_status": "Operational",
   "k8s_uptime": "36 days"
 }
